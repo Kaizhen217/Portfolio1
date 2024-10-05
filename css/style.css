@@ -543,7 +543,7 @@ nav {
     flex-direction: column;
     position: relative;
     top:-2px;
-    left:-250px;
+    left:-220px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
