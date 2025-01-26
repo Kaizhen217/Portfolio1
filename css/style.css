@@ -222,7 +222,7 @@ border-radius: 5px;
 }
 
 .target {
-   display: inline-block;
+    display: inline-block;
     gap:30px;
     text-align:center;
     align-items: center;
