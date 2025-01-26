@@ -222,8 +222,8 @@ border-radius: 5px;
 }
 
 .target {
-    display: inline-block;
-    gap:45px;
+   display: inline-block;
+    gap:30px;
     text-align:center;
     align-items: center;
     justify-content: center;
