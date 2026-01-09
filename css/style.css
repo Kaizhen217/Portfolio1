@@ -203,7 +203,7 @@ width: 100%;
 border-radius: 5px;
 }
 .custom-list {
-  list-style-type: disc;
+  list-style-type: circle;
   margin-left: 20px;
 }
 .about-text h2{
@@ -655,4 +655,5 @@ nav {
     transform: none;
   }
 }
+
 
