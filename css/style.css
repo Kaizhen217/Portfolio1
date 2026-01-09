@@ -488,7 +488,7 @@ position: relative;
 }
 
 .last-text{
-    color: var(--second-color);
+ 
     width: 100%;
     text-align: center; /* center the tagline */
     position: relative;
@@ -677,6 +677,7 @@ nav {
     transform: none;
   }
 }
+
 
 
 
