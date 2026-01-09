@@ -484,20 +484,32 @@ position: relative;
     justify-content: space-between;
     gap: 2rem;
     background: var(--bg-color);
+    position: relative; /* needed for absolute positioning inside */
 }
+
 .last-text{
-    color:var(--second-color);    
+    color: var(--second-color);
+    width: 100%;
+    text-align: center; /* center the tagline */
+    position: relative;
 }
-.tagline {
-  display: block;
-  text-align: center;
+
+.last-text .copyright {
+    position: absolute;
+    left: 0; /* stays on the left */
 }
+
+.last-text .tagline {
+    display: block;
+    text-align: center; /* centers the tagline */
+}
+
 .top i{
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
     color: var(--text-color);
-    background:var(--main-color) ;
+    background: var(--main-color);
 }
 
 @media (max-width:1480px) {
@@ -665,6 +677,7 @@ nav {
     transform: none;
   }
 }
+
 
 
 
