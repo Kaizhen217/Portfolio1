@@ -202,6 +202,10 @@ height: auto;
 width: 100%;
 border-radius: 5px;
 }
+.custom-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
 .about-text h2{
     font-size: 24px;
     line-height: 1;
@@ -651,3 +655,4 @@ nav {
     transform: none;
   }
 }
+
