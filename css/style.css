@@ -488,6 +488,10 @@ position: relative;
 .last-text{
     color:var(--second-color);    
 }
+.tagline {
+  display: block;
+  text-align: center;
+}
 .top i{
     padding: 10px;
     border-radius: 8px;
@@ -661,6 +665,7 @@ nav {
     transform: none;
   }
 }
+
 
 
 
